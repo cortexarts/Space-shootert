@@ -33,7 +33,7 @@ public class PlayerController : MonoBehaviour
 	{
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
-		Debug.Log ("Horizontal: " + moveHorizontal, gameObject);
+		//Debug.Log ("Horizontal: " + moveHorizontal, gameObject);
 
 		
 		Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
