@@ -24,5 +24,13 @@ public class DestroybyContact : MonoBehaviour {
 			Destroy(other.gameObject);
 			Destroy(gameObject);
 		}
+		if (other.tag == "Bold")
+		{
+			Debug.Log ("OnTriggerEnterplayer");
+			Instantiate(explosion, transform.position, transform.rotation);
+			Instantiate (explosion, other.transform.position, other.transform.rotation);
+			Destroy(other.gameObject);
+			Destroy(gameObject);
+		}
 	}
 }
