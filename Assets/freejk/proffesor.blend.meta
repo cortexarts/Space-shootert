@@ -1,28 +1,35 @@
 fileFormatVersion: 2
-guid: 7bf62b04cad62de4da1e7675a92d93da
+guid: ffdc9f68af365d24aa6f94403f3c692b
 ModelImporter:
   serializedVersion: 16
   fileIDToRecycleName:
-    100000: Icosphere
-    100002: Mball
-    100004: SurfTorus
-    100006: //RootNode
-    400000: Icosphere
-    400002: Mball
-    400004: SurfTorus
-    400006: //RootNode
-    2300000: Icosphere
-    2300002: Mball
-    2300004: SurfTorus
-    2300006: //RootNode
-    3300000: Icosphere
-    3300002: Mball
-    3300004: SurfTorus
-    3300006: //RootNode
-    4300000: SurfTorus
-    4300002: Mball
-    4300004: Icosphere
-    4300006: Cube
+    100000: body
+    100002: feet
+    100004: hands
+    100006: head
+    100008: legs
+    100010: //RootNode
+    400000: body
+    400002: feet
+    400004: hands
+    400006: head
+    400008: legs
+    400010: //RootNode
+    2300000: body
+    2300002: feet
+    2300004: hands
+    2300006: head
+    2300008: legs
+    3300000: body
+    3300002: feet
+    3300004: hands
+    3300006: head
+    3300008: legs
+    4300000: feet
+    4300002: head
+    4300004: legs
+    4300006: hands
+    4300008: body
     7400000: Default Take
     9500000: //RootNode
   materials:
